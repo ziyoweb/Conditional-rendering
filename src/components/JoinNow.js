@@ -28,7 +28,7 @@ class JoinNow extends Component {
             <input type="password" id="password" placeholder="Password" />
           </div>
           <div className="forget__ps">
-            <a href="#">Forgot Password?</a>
+            <a href="login">Forgot Password?</a>
           </div>
           <button type="submit" className="sign__in">
             Login
@@ -39,7 +39,7 @@ class JoinNow extends Component {
           <p>Don't have an account yet?</p>
           <button
             type="button"
-            onClick={this.props.parentCallback}
+            onClick={this.props.handleCallback}
             className="btn"
           >
             Join Now

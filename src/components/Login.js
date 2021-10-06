@@ -14,7 +14,7 @@ class Login extends Component {
         <div className="log__in--main">
           <div className="user" />
           <div className="add__img">
-            <a href="#">
+            <a href="join">
               <img src={camera} alt="" />
             </a>
           </div>
@@ -46,7 +46,7 @@ class Login extends Component {
 
         <div className="main__bottom">
           <p>Already have an account?</p>
-          <button className="btn" onClick={this.props.parentCallback}>
+          <button className="btn" onClick={this.props.handleCallback}>
             Log in
           </button>
         </div>
